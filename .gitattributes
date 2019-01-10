@@ -1,0 +1,5 @@
+data/*.data* filter=lfs diff=lfs merge=lfs -text
+data/*.meta filter=lfs diff=lfs merge=lfs -text
+saved_model/*.pb filter=lfs diff=lfs merge=lfs -text
+saved_model/0011/variables/variables.data-00000-of-00002 filter=lfs diff=lfs merge=lfs -text
+data/inception_v3.ckpt filter=lfs diff=lfs merge=lfs -text
